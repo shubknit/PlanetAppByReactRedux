@@ -1,10 +1,13 @@
 Build Setup
 
-install dependencies
+---install dependencies---
 npm install
 
-serve with hot reload at localhost:3030/login
+---serve with hot reload at localhost:3030/ ---
 npm start
+
+---Run Test cases--
+npm test
 
 
 
