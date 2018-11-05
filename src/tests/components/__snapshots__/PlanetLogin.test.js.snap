@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Planet Login correctly 1`] = `
+<div
+  className="login-page"
+>
+  <Connect(PlanetHeader) />
+  <div
+    className="page-header"
+  >
+    <div
+      className="content-container"
+    >
+      <div
+        className="login-page"
+      >
+        <form
+          className="form"
+          onSubmit={[Function]}
+        >
+          <input
+            className="text-input"
+            placeholder="username"
+            type="text"
+          />
+          <input
+            className="text-input"
+            placeholder="password"
+            type="password"
+          />
+          <div>
+            <button
+              className="button"
+              type="submit"
+            >
+               Login 
+            </button>
+          </div>
+        </form>
+        <p>
+           Loading ... 
+        </p>
+        <p
+          className="error"
+        >
+           
+          <Component />
+           
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

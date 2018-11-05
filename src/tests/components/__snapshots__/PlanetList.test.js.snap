@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense list correctly 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div>
+       Name
+    </div>
+    <div>
+       Population
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <PlanetRow
+      key="0"
+      order={0}
+      planetRowData={
+        Object {
+          "diameter": "100",
+          "id": "1",
+          "name": "mars",
+          "orbital_period": "100",
+          "population": "100",
+          "rotation_period": "100",
+        }
+      }
+    />
+    <PlanetRow
+      key="1"
+      order={1}
+      planetRowData={
+        Object {
+          "diameter": "200",
+          "id": "2",
+          "name": "pluto",
+          "orbital_period": "200",
+          "population": "200",
+          "rotation_period": "200",
+        }
+      }
+    />
+    <PlanetRow
+      key="2"
+      order={2}
+      planetRowData={
+        Object {
+          "diameter": "300",
+          "id": "3",
+          "name": "jupiter",
+          "orbital_period": "300",
+          "population": "300",
+          "rotation_period": "300",
+        }
+      }
+    />
+  </div>
+</div>
+`;

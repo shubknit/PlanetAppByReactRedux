@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PlanetRow correctly 1`] = `
+<Link
+  className="list-item"
+  replace={false}
+  style={
+    Object {
+      "fontSize": NaN,
+    }
+  }
+  to="planet-detail/1"
+>
+  <div
+    className="col-1"
+  >
+    mars
+  </div>
+  <div
+    className="list"
+  >
+    100
+  </div>
+</Link>
+`;

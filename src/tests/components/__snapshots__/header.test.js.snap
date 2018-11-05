@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render header correctly 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="content-container"
+  >
+    <div
+      className="header__content"
+    >
+      <Link
+        className="header__title"
+        replace={false}
+        to="/user"
+      >
+        <FaHome />
+      </Link>
+      <h1
+        className="header__title"
+      >
+        Planet App 
+      </h1>
+      <Link
+        className="button button--link"
+        onClick={[Function]}
+        replace={false}
+        to="/login"
+      >
+        Logout
+      </Link>
+    </div>
+  </div>
+</header>
+`;
